@@ -1,11 +1,11 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { NewsletterSignup } from '@/components/NewsletterSignup'
-import { SubscriptionsList } from '@/components/SubscriptionsList'
-import { LinksViewer } from '@/components/LinksViewer'
-import { Header } from '@/components/Header'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { NewsletterSignup } from '../components/NewsletterSignup'
+import { SubscriptionsList } from '../components/SubscriptionsList'
+import { LinksViewer } from '../components/LinksViewer'
+import { Header } from '../components/Header'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs'
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('signup')
